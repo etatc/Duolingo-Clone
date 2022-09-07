@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="e.rick.duolingoclone">
+    package="com.christian.togstudyapp">
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name=".DuolingoApp"
+        android:statusBarColor="#222222"
         tools:ignore="GoogleAppIndexingWarning">
 
         <activity android:name=".ui.tasks.WordTask.WordTaskActivity" />
@@ -30,7 +31,8 @@
 
         <activity android:name=".ui.activity.PickDailyGoalActivity.PickDailyGoalActivity" />
 
-        <activity android:name=".ui.activity.lessonlistactivity.LessonListActivity">
+        <activity android:name=".ui.activity.lessonlistactivity.LessonListActivity"
+            android:exported="true">
 
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />

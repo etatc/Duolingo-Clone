@@ -5,8 +5,8 @@
     <color name="colorAccent">#FF4081</color>
 
     <!--Custom view-->
-    <color name="empty_view">#848484</color>
-    <color name="custom_view_text_color">#000000</color>
+    <color name="empty_view">#222222</color>
+    <color name="custom_view_text_color">#ffffff</color>
 
     <!--Button-->
     <color name="green_button">#30ce00</color>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/happyhour"
+    android:insetTop="25dip"
+    android:insetBottom="25dip"
+    android:insetLeft="25dip"
+    android:insetRight="25dip"/>

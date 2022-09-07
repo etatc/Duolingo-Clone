@@ -28,7 +28,7 @@
 
     </LinearLayout>
 
-    <e.rick.duolingoclone.Utils.CustomProgressBar
+    <com.christian.togstudyapp.Utils.CustomProgressBar
         android:id="@+id/user_progress_bar"
         android:layout_width="230dp"
         android:layout_height="230dp"

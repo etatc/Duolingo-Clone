@@ -10,15 +10,20 @@
         android:id="@+id/close_task"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_task_close"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        android:src="@drawable/ic_task_close" />
+
 
     <ProgressBar
         android:id="@+id/task_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/close_task"
-        android:layout_centerVertical="true"/>
+        android:maxHeight="10dip"
+        android:minHeight="10dip"
+        android:progressDrawable="@drawable/greenprogress" />
 
 </RelativeLayout>

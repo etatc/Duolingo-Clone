@@ -13,7 +13,30 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-    <include layout="@layout/tasks_progress_bar" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/layout_progress_bar"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:id="@+id/close_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:clickable="true"
+                android:src="@drawable/ic_task_close" />
+
+            <ProgressBar
+                android:id="@+id/task_progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/close_task" />
+
+        </RelativeLayout>
 
     <TextView
         android:id="@+id/translate_this_sentence"
